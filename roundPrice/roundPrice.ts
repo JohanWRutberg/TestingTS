@@ -1,5 +1,5 @@
-function roundPrice(price: number, options: { currencyPattern?: string; currency?: string } = {}): string {
-  const { currencyPattern = "%PRICE% %CURRENCY%", currency = "SEK" } = options;
+function roundPrice(price: number, options: { pattern?: string; currency?: string } = {}): string {
+  const { pattern = "%PRICE% %CURRENCY%", currency = "SEK" } = options;
 
   const thirdDecimal = Math.floor((price * 1000) % 10);
 
@@ -7,9 +7,9 @@ function roundPrice(price: number, options: { currencyPattern?: string; currency
 
   const formattedPrice = roundedPrice.toFixed(2);
 
-  const formattedPattern = currencyPattern.replace("%PRICE%", formattedPrice).replace("%CURRENCY%", currency);
+  const formattedOutput = pattern.replace("%PRICE%", formattedPrice).replace("%CURRENCY%", currency);
 
-  return formattedPattern;
+  return formattedOutput;
 }
 
 export default roundPrice;
