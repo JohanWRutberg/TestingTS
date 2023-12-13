@@ -8,6 +8,14 @@ describe("roundPrice", () => {
   });
 
   it("should round up a decimal price and add USD to the end", () => {
-    expect(roundPrice(1024.2048, "USD %PRICE%")).toBe("USD 1024.20");
+    expect(roundPrice(1024.2048, { currencyPattern: "USD %PRICE%" })).toBe("USD 1024.21");
+  });
+
+  it("should round up a decimal price and add specified currency to the end", () => {
+    expect(roundPrice(1024.2048, { currency: "NOK" })).toBe("1024.22 NOK");
+  });
+
+  it("should round up a decimal price and add specified currency and pattern to the end", () => {
+    expect(roundPrice(1024.2048, { currencyPattern: "CAD %PRICE%", currency: "CAD" })).toBe("CAD 1024.23");
   });
 });
