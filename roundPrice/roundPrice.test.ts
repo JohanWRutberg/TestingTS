@@ -8,6 +8,6 @@ describe("roundPrice", () => {
   });
 
   it("should round up a decimal price and add USD to the end", () => {
-    expect(roundPrice(1024.2048, "USD")).toBe("USD 1024.20");
+    expect(roundPrice(1024.2048, "USD %PRICE%")).toBe("USD 1024.20");
   });
 });
