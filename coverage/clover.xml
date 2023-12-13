@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702505439466" clover="3.2.0">
-  <project timestamp="1702505439466" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="25" coveredelements="25" complexity="0" loc="15" ncloc="15" packages="4" files="4" classes="4"/>
+<coverage generated="1702506025769" clover="3.2.0">
+  <project timestamp="1702506025769" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="29" coveredelements="29" complexity="0" loc="17" ncloc="17" packages="4" files="4" classes="4"/>
     <package name="emailValidation">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="emailValidation.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\emailValidation\emailValidation.ts">
@@ -22,14 +22,16 @@
       </file>
     </package>
     <package name="roundPrice">
-      <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
       <file name="roundPrice.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\roundPrice\roundPrice.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="zipValidator">
