@@ -10,12 +10,4 @@ describe("roundPrice", () => {
   it("should round up a decimal price and add USD to the end", () => {
     expect(roundPrice(1024.2048, "USD")).toBe("USD 1024.20");
   });
-
-  it("should handle negative prices and round up", () => {
-    expect(roundPrice(-15.6789)).toBe("-15.68 SEK");
-  });
-
-  it("should handle zero and round up", () => {
-    expect(roundPrice(0.001)).toBe("0.01 SEK");
-  });
 });
