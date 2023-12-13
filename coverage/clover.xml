@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702467094369" clover="3.2.0">
-  <project timestamp="1702467094369" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
-    <file name="emailValidation.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\emailValidation\emailValidation.ts">
+<coverage generated="1702501367247" clover="3.2.0">
+  <project timestamp="1702501367247" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="8" coveredelements="8" complexity="0" loc="6" ncloc="6" packages="2" files="2" classes="2"/>
+    <package name="emailValidation">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="3" type="stmt"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-    </file>
+      <file name="emailValidation.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\emailValidation\emailValidation.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="zipValidator">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="zipValidator.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\zipValidator\zipValidator.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
