@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702589882938" clover="3.2.0">
-  <project timestamp="1702589882938" name="All files">
-    <metrics statements="35" coveredstatements="35" conditionals="12" coveredconditionals="12" methods="10" coveredmethods="10" elements="57" coveredelements="57" complexity="0" loc="35" ncloc="35" packages="8" files="8" classes="8"/>
+<coverage generated="1702590334158" clover="3.2.0">
+  <project timestamp="1702590334158" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="12" coveredconditionals="12" methods="13" coveredmethods="13" elements="65" coveredelements="65" complexity="0" loc="40" ncloc="40" packages="9" files="9" classes="9"/>
     <package name="emailValidation">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="emailValidation.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\emailValidation\emailValidation.ts">
@@ -19,6 +19,17 @@
         <line num="3" count="3" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="getGroups">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="getGroups.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\getGroups\getGroups.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
     <package name="getUsers">
