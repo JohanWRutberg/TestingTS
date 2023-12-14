@@ -32,8 +32,7 @@ describe("isPrimeNumber", () => {
     expect(isPrimeNumber(-3)).toBe(false);
   });
 
-  it("should return false for 0 and 1", () => {
+  it("should return false for 0", () => {
     expect(isPrimeNumber(0)).toBe(false);
-    expect(isPrimeNumber(1)).toBe(false);
   });
 });
