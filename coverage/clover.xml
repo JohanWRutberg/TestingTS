@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702506488327" clover="3.2.0">
-  <project timestamp="1702506488328" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="29" coveredelements="29" complexity="0" loc="17" ncloc="17" packages="4" files="4" classes="4"/>
+<coverage generated="1702553614227" clover="3.2.0">
+  <project timestamp="1702553614227" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="5" coveredmethods="5" elements="32" coveredelements="32" complexity="0" loc="19" ncloc="19" packages="5" files="5" classes="5"/>
     <package name="emailValidation">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="emailValidation.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\emailValidation\emailValidation.ts">
@@ -19,6 +19,14 @@
         <line num="3" count="1" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="isLowerCase">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isLowerCase.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\isLowerCase\isLowerCase.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
     <package name="roundPrice">
