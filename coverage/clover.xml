@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702590334158" clover="3.2.0">
-  <project timestamp="1702590334158" name="All files">
+<coverage generated="1702729229706" clover="3.2.0">
+  <project timestamp="1702729229706" name="All files">
     <metrics statements="40" coveredstatements="40" conditionals="12" coveredconditionals="12" methods="13" coveredmethods="13" elements="65" coveredelements="65" complexity="0" loc="40" ncloc="40" packages="9" files="9" classes="9"/>
     <package name="emailValidation">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -78,13 +78,13 @@
       <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
       <file name="roundPrice.ts" path="C:\Users\johan\OneDrive\Programmering\TypeScript-Exercises\Inlämning\TestingTS\roundPrice\roundPrice.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
-        <line num="2" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="4" count="7" type="stmt"/>
-        <line num="6" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="7" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
-        <line num="12" count="7" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="8" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="14" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
     <package name="zipValidator">
